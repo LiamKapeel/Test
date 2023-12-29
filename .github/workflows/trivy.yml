@@ -1,8 +1,9 @@
-name: build
+name: run-trivy
 on:
   push:
     branches:
       - main
+      - Automate-Trivy
   pull_request:
 jobs:
   build:
